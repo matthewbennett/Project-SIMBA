@@ -1,7 +1,7 @@
 PROJECT SIMBA 
-founding archetice: Matthew Bennett | mbennett24@student.gsu.edu
+founding architect: Matthew Bennett | mbennett24@student.gsu.edu
 co founder: Addison Admiri
-contributers: Shayan Khan 
+contributors: Shayan Khan 
 
 ______________
 
@@ -14,13 +14,13 @@ CURRENT STATUS
 There are currently two main parts of SIMBA Library, a set of classes and methods for a Arbitrage between currency pairs. 
   
   *The Arbitrage 
-    the program was first built in one class with the ability to check for exploits surronding a single crypto currency tested and tweeked until succesful profitable trading sequences where made semi consistently. Then the methods where seperated into classes where multiple crypto currencies pairs could be checked for exploits at once, Due to multi threading and static variables the multi threaded version of the arbitrage fuctionality is much less consistent. 
+    the program was first built in one class with the ability to check for exploits surrounding a single crypto currency tested and tweaked until successful profitable trading sequences where made semi consistently. Then the methods where separated into classes where multiple crypto currencies pairs could be checked for exploits at once, Due to multi threading and static variables the multi threaded version of the arbitrage functionality is much less consistent. 
 
   *The AI 
-    the program is built in a single class file with the intent to get a semi consistent output before seperating methods into class files. After multiple builds and tweeking a consistent profitable output as not be tuned yet, however the data pulling methods work consistenly. 
+    the program is built in a single class file with the intent to get a semi consistent output before separating methods into class files. After multiple builds and tweaking a consistent profitable output as not be tuned yet, however the data pulling methods work consistently. 
 
   *The API 
-    SIMBA is built ontop of the API built by Brain Waters, located here 
+    SIMBA is built on top of the API built by Brain Waters, located here 
     https://github.com/abwaters/btce-api
 
 EXAMPLES OF EXPLOITS 
@@ -49,6 +49,7 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
 
 
 
