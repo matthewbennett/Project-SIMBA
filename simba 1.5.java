@@ -126,8 +126,8 @@ public class SimbaBeta
 		intiates the account variable @BTCE and logs into the account
 	*/
   btce = new BTCE();
-  key = "YSJS8N4E-UXEQYNOS-4QZ4GGNO-GJXRAK9H-7CXR8F5P";
-  secret = "1342261b8a293852349a03e3b121d2b8ea0b35e9279b040255f76b3c082cde63";
+  key = "YSJS8N4E-xxxxxx-xxxxxx-xxxxxxx-xxxxxx";
+  secret = "1342261b8a293852349a03e3b121d2bxxxxxxxxxxxxxxxxxxxxx";
   pointSetter = 2;
   btce.setAuthKeys(key, secret);
   btce.setAuthRequestLimit(auth_request_limit);
