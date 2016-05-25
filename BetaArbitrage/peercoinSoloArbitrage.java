@@ -78,8 +78,8 @@ public class pan {
     public static void main(String[] args) throws BTCEException, InterruptedException
     {
       btce = new BTCE();
-      key = "9UFGAXUG-DE39IXO4-E0DDJAO2-38U1EV1F-FP8YYGWG";
-      secret = "912f2dab5f0140589862b5a14de976746b080bb78ce1562f7a16e1564f321438";
+      key = "";
+      secret = "";
       btce.setAuthKeys(key, secret);
       btce.setAuthRequestLimit(auth_request_limit);
       btce.setRequestLimit(request_limit);
