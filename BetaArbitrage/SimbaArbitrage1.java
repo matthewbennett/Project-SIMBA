@@ -92,8 +92,8 @@ public class SimbaArbitrage1 {
     public static void main(String[] args) throws BTCEException, InterruptedException
     {
       btce = new BTCE();
-      key = "YSJS8N4E-UXEQYNOS-4QZ4GGNO-GJXRAK9H-7CXR8F5P";
-      secret = "1342261b8a293852349a03e3b121d2b8ea0b35e9279b040255f76b3c082cde63";
+      key = "";
+      secret = "";
       btce.setAuthKeys(key, secret);
       btce.setAuthRequestLimit(auth_request_limit);
       btce.setRequestLimit(request_limit);
